@@ -3,10 +3,10 @@ import pickle
 import pandas as pd
 import requests
 import string
+import nltk
 nltk.download('stopwords')
 nltk.download('puntk')
 from nltk.corpus import stopwords
-import nltk
 from nltk.stem.porter import PorterStemmer
 # stop_words = set(stopwords.words('english'))
 
