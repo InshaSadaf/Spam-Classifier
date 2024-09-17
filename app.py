@@ -4,8 +4,8 @@ import pandas as pd
 import requests
 import string
 import nltk
-nltk.download('stopwords')
-# nltk.download('puntk')
+#nltk.download('stopwords')
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 # stop_words = set(stopwords.words('english'))
